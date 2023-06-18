@@ -36,7 +36,7 @@ def generate_duty():
     return {'validator': validator, 'duty': duty, 'height': height}
         
 
-@sock.route('/ws')
+@sock.route('/')
 def duties(ws):
     while True:
         time.sleep(3)

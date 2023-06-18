@@ -9,7 +9,7 @@ python eth.py
 ```
 
 ## Access 
-`localhost:5000/ws`
+`localhost:5000`
 
 ## format
 `{'validator': '1', 'duty': 'ATTESTER', 'height': 0}`
