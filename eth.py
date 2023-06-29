@@ -9,7 +9,7 @@ app = Flask(__name__)
 sock = Sock(app)
 
 duty_list = ['PROPOSER', 'ATTESTER', 'AGGREGATOR', 'SYNC_COMMITTEE']
-validators = ['1', '2', '3', '4', '5', '6']
+validators = [1, 2, 3, 4, 5, 6]
 validator_index = {}
 
 def generate_duty():
